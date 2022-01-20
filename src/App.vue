@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar app color="rgb(0, 0, 0) " class="white--text small">
+    <v-app-bar app color="rgb(0, 0, 0) " class="white--text small">
       <v-app-bar-nav-icon
         color="white"
         @click="drawer = !drawer"
@@ -10,7 +10,7 @@
           <span class="code">&lt;</span>{{ msg }}<span class="code">/></span>
         </div>
       </v-toolbar-title>
-    </v-toolbar>
+    </v-app-bar>
 
     <v-navigation-drawer app v-model="drawer" temporary dark>
       <v-row class="text-center mt-5">

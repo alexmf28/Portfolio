@@ -1,12 +1,15 @@
 <template>
   <v-row class="text-center fondoHome">
     <v-col
-      class="white--text d-flex flex-column align-center justify-center inicio"
+      class="white--text d-flex flex-column align-center justify-center"
       md="4"
     >
-      <h1 class="display-1 font-weight-bold mb-3">HELLO MY NAME IS ALEXIS</h1>
+    <div class="inicio">
+        <h1 class="display-1 font-weight-bold mb-3">HELLO MY NAME IS ALEXIS</h1>
 
       <p class="subtitle-1 font-weight-regular">I'M A FRONT-END DEVELOPER</p>
+    </div>
+    
     </v-col>
   </v-row>
 </template>
@@ -32,8 +35,12 @@ export default {
   color: white;
 }
 .inicio {
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 3%;
+  backdrop-filter: blur(10px);
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 10%;
+  border:solid;
+  border-radius: 15px;
 }
 </style>
