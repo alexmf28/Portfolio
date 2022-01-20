@@ -1,8 +1,9 @@
 <template>
   <v-container class="fondoInicio" fluid>
     <Hello />
-    <span id="aboutMe"><AboutMe /></span> 
-    <Projects />
+    <span id="aboutMe"><AboutMe /></span>
+    <span id="projects"><Projects /></span>
+    <span id="contact"><Contact/></span>
   </v-container>
 </template>
 
@@ -10,6 +11,7 @@
 import Hello from "../components/Hello.vue";
 import AboutMe from "../components/AboutMe.vue";
 import Projects from "../components/Projects.vue";
+import Contact from '../components/Contact.vue';
 
 export default {
   name: "Home",
@@ -18,6 +20,7 @@ export default {
     Hello,
     AboutMe,
     Projects,
+    Contact,
   },
 };
 </script>
@@ -25,7 +28,7 @@ export default {
 .fondoInicio {
   background: black;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 </style>
