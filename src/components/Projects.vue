@@ -3,7 +3,7 @@
     <v-row class="hobbies_skills text-center" wrap>
       <v-col cols="12">
         <div>
-          <h1>Projects</h1>
+          <h1>PROJECTS</h1>
         </div>
       </v-col>
 
@@ -34,7 +34,7 @@
               <v-btn small dark class="mx-3">
                 <a
                   style="color: rgb(0, 255, 209); text-decoration: none"
-                  href="https://condescending-leakey-fb037c.netlify.app"
+                  href="https://romantic-einstein-fcc1e4.netlify.app"
                   target="_blank"
                   >Demo <i class="fas fa-laptop-code"></i
                 ></a>
@@ -42,7 +42,7 @@
               <v-btn small dark class="mx-3">
                 <a
                   style="color: rgb(0, 255, 209); text-decoration: none"
-                  href="https://github.com/alexmf28/TeamPage"
+                  href="https://github.com/alexmf28/ResponsivePage"
                   target="_blank"
                   >Código <i class="fab fa-github"></i
                 ></a>
