@@ -4,12 +4,16 @@
       class="white--text d-flex flex-column align-center justify-center"
       md="4"
     >
-    <div class="inicio">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="400"
+        data-aos-easing="ease-in-sine"
+        class="inicio"
+      >
         <h1 class="display-1 font-weight-bold mb-3">HELLO MY NAME IS ALEXIS</h1>
 
-      <p class="subtitle-1 font-weight-regular">I'M A FRONT-END DEVELOPER</p>
-    </div>
-    
+        <p class="subtitle-1 font-weight-regular">I'M A FRONT-END DEVELOPER</p>
+      </div>
     </v-col>
   </v-row>
 </template>
@@ -40,7 +44,7 @@ export default {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 10%;
-  border:solid;
+  border: solid;
   border-radius: 15px;
 }
 </style>

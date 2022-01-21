@@ -2,12 +2,17 @@
   <v-container fluid class="fondoProjects">
     <v-row class="hobbies_skills text-center" wrap>
       <v-col cols="12">
-        <div>
+        <div data-aos="fade-up">
           <h1>PROJECTS</h1>
         </div>
       </v-col>
 
-      <v-col class="d-flex justify-center align-center" xs12>
+      <v-col
+         data-aos="fade-up-right"
+        data-aos-duration="2000"
+        class="d-flex justify-center align-center"
+        xs12
+      >
         <div class="articulo">
           <img class="image_img" src="../assets/ResponsivePage.jpg" alt="" />
           <div class="image_overlay image_overlay_blur">
@@ -51,7 +56,12 @@
           </div>
         </div>
       </v-col>
-      <v-col cols=" d-flex justify-center align-center " xs12>
+      <v-col
+         data-aos="fade-up-left"
+        data-aos-duration="2000"
+        cols=" d-flex justify-center align-center "
+        xs12
+      >
         <div class="articulo">
           <img class="image_img_team" src="../assets/TeamPage.jpg" alt="" />
           <div class="image_overlay image_overlay_blur">

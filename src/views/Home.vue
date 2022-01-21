@@ -1,6 +1,6 @@
 <template>
   <v-container class="fondoInicio" fluid>
-    <Hello />
+    <span id="hello"><Hello /></span>
     <span id="aboutMe"><AboutMe /></span>
     <span id="projects"><Projects /></span>
     <span id="contact"><Contact /></span>

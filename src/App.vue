@@ -7,7 +7,10 @@
       ></v-app-bar-nav-icon>
       <v-toolbar-title>
         <div class="d-flex">
-          <span class="code">&lt;</span>{{ msg }}<span class="code">/></span>
+          <v-btn dark text href="#hello">
+             <span class="code">&lt;</span>{{ msg }}<span class="code">/></span>
+          </v-btn>
+         
         </div>
       </v-toolbar-title>
     </v-app-bar>

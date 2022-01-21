@@ -2,16 +2,16 @@
   <v-container class="fondoAbout" mt-3 fluid>
     <v-row class="hobbies_skills text-center" wrap>
       <v-col class="justify-start align-start" cols="12">
-        <div>
+        <div data-aos="fade-up" data-aos-duration="2000">
           <h1>ABOUT ME</h1>
         </div>
       </v-col>
-      <v-col class="" cols="12">
+      <v-col data-aos="fade-up" data-aos-duration="2000" class="" cols="12">
         <v-avatar class="profile text-center justify-center" size="300">
           <v-img class="avatar_img" src="../assets/Me.jpg"></v-img>
         </v-avatar>
         <v-row align="end">
-          <v-col align-self="center" cols="12">
+          <v-col data-aos="fade-down" align-self="center" cols="12">
             <div class="mt-5">
               <h2>Who am I</h2>
             </div>
@@ -25,7 +25,12 @@
           </v-col>
         </v-row>
       </v-col>
-      <v-col class="mx-auto" cols="6">
+      <v-col
+        data-aos="fade-up-right"
+        data-aos-duration="2000"
+        class="mx-auto"
+        cols="6"
+      >
         <v-img height="100%" max-height="500" src="../assets/Auriculares.jpg">
           <v-row align="end" class="fill-height">
             <v-col align-self="center" cols="12" class="hobbies_skills">
@@ -41,7 +46,12 @@
           </v-row>
         </v-img>
       </v-col>
-      <v-col class="mx-auto" cols="6">
+      <v-col
+        data-aos="fade-up-left"
+        data-aos-duration="2000"
+        class="mx-auto"
+        cols="6"
+      >
         <v-img height="100%" max-height="500" src="../assets/Mac.jpg">
           <v-row align="end" class="fill-height">
             <v-col align-self="center" class="white--text" cols="12">
