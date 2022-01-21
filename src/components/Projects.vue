@@ -16,7 +16,6 @@
               <p class="image_descripcion">Utilicé tecnologías cómo:</p>
               <div class="iconos">
                 <img
-                  class="skill"
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                   alt="html5"
                   width="60"
@@ -24,7 +23,6 @@
                 />
 
                 <img
-                  class="skill"
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
                   alt="css3"
                   width="60"
@@ -62,7 +60,6 @@
               <p class="image_descripcion">Utilicé tecnologías cómo:</p>
               <div class="iconos">
                 <img
-                  class="skill"
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                   alt="html5"
                   width="60"
@@ -70,7 +67,6 @@
                 />
 
                 <img
-                  class="skill"
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
                   alt="css3"
                   width="60"
@@ -169,7 +165,6 @@ export default {};
 }
 
 .iconos {
-  margin-top: 0rem;
   display: flex;
   column-gap: 50px;
   justify-content: center;
