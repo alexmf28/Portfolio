@@ -58,7 +58,7 @@ export default {
 
   data: () => ({
     drawer: false,
-    msg: "Portafolio",
+    msg: "Portfolio",
   }),
 };
 </script>

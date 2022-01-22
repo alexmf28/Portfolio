@@ -17,7 +17,7 @@
             </div>
             <p>
               Bienvenidos, soy Alexis, un estudiante apasionado por el
-              desarrollo web, actualmente me encuentro en los últimos
+              desarrollo web Front-end, actualmente me encuentro en los últimos
               <br />
               ciclos de mi carrera y también estoy estudiando nuevos lenguajes
               cómo Angular junto con TypeScript.
