@@ -121,6 +121,7 @@
       >
         <div class="articulo_video">
           <video
+          controls
             class="video_video"
             src="../assets/vista_admin.mp4"
             alt="sisfahd"
