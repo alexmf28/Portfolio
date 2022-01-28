@@ -110,6 +110,7 @@
       <v-col cols="12">
         <div data-aos="fade-up">
           <h1>SISFAHD Proyecto Universitario</h1>
+          <p>Fuí parte de un grandioso proyecto universitario.</p>
         </div>
       </v-col>
 
@@ -121,7 +122,7 @@
       >
         <div class="articulo_video">
           <video
-          controls
+            controls
             class="video_video"
             src="../assets/vista_admin.mp4"
             alt="sisfahd"
@@ -134,14 +135,14 @@
           <p class="image_descripcion">Se utilizarón tecnologías cómo:</p>
           <div class="iconos_video">
             <img
-            class="video_tecnologias"
+              class="video_tecnologias"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
               alt="vuejs"
               width="60"
               height="60"
             />
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
               alt="javascript"
               width="60"
@@ -149,7 +150,7 @@
             />
 
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
               alt="html5"
               width="60"
@@ -157,21 +158,21 @@
             />
 
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
               alt="css3"
               width="60"
               height="60"
             />
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
               alt="figma"
               width="60"
               height="60"
             />
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="https://bestofjs.org/logos/vuetify.svg"
               alt="vuetify"
               width="60"
@@ -184,21 +185,21 @@
           <p class="image_descripcion">Se utilizarón tecnologías cómo:</p>
           <div class="iconos_video">
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
               alt="csharp"
               width="60"
               height="60"
             />
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
               alt="mongodb"
               width="60"
               height="60"
             />
             <img
-             class="video_tecnologias"
+              class="video_tecnologias"
               src="../assets/asp.net.jpg"
               alt="mongodb"
               width="60"
@@ -321,7 +322,7 @@ export default {};
     width: 20rem;
     height: 14rem;
   }
-  .video_tecnologias{
+  .video_tecnologias {
     width: 30px;
     height: 30px;
   }
@@ -343,7 +344,7 @@ export default {};
     width: 14rem;
     height: 10rem;
   }
-  .video_tecnologias{
+  .video_tecnologias {
     width: 25px;
     height: 25px;
   }
