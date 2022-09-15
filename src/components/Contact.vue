@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row data-aos="fade-up" data-aos-duration="2000" class="hobbies_skills">
+    <v-row data-aos="fade-down" data-aos-duration="2000" class="hobbies_skills">
       <v-col cols="12" class="d-flex justify-center align-center">
         <div>
           <h1>CONTACT</h1>
